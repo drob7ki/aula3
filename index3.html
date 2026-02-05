@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"
+    <meta charset="UTF-8"
+    <title>js03_soma.htm - somatoria</title>
+</head>
+<body>
+    <h3>somatoria de dois numeros inteiros</h3>
+        <script language="javascript">
+            /* objetivo: desenvolver um programa em javascruipt que faça a leitura
+            de dois numeros inteiros e apresente o resultado da soma entre eles*/
+
+            /*definicao das variaveis*/
+            
+            var js_n1;
+            var js_n2;
+            var js_soma;
+
+            /*entrada de dados*/
+            js_n1 = window.prompt('entre com o primeiro numero inteiro: ', 'digite aqui'); 
+
+            js_n2 = window.prompt('entre com o segundo numero inteiro: ', 'digite aqui');
+
+            /*processamento de dados*/
+            js_soma = parseInt(js_n1) + parseInt(js_n2);
+
+            /*saida de dados*/
+            document.write('o resultado da soma= '+ js_soma);
+</script>
+</body>
+</html>
