@@ -1,2 +1,3 @@
 # aula3
-somatoria de dois numeros inteiros
+index.html: somatoria de dois numeros inteiros
+suco.html: maquina de sucos
